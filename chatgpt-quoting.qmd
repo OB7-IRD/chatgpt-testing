@@ -1,9 +1,10 @@
 ---
 title: "Quote with ChatGPT"
+subtitle: "An inspired discussion with an AI"
 author: "Julien LEBRANCHU"
 date: "16/02/2023"
 format:
-  html: 
+  ird-html: 
     code-fold: true
     code-tools: true
 filters:

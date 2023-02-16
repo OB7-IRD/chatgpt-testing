@@ -1,6 +1,6 @@
 title: Template IRD
 author: Julien LEBRANCHU
-version: 0.0.1
+version: 0.0.2
 contributes:
   formats:
     docx:
@@ -25,3 +25,16 @@ contributes:
       theme: [ressources/reveal.scss]
       plugins:
       - PdfExport
+    html:
+      code-overflow: wrap
+      title-block-banner: "#ffffff"
+      number-sections: true
+      highlight-style: github
+      cover-image: ressources/images/logos
+      css: ressources/styles.css
+      embed-resources: true
+      smooth-scroll: true
+      toc: true
+      toc-location: left
+      toc-title: Summary
+      toc-depth: 3
