@@ -1,22 +1,93 @@
 ---
 title: "Quote with ChatGPT"
-format: html
+author: "Julien LEBRANCHU"
+date: "16/02/2023"
+format:
+  html: 
+    code-fold: true
+    code-tools: true
+filters:
+   - add-code-files
 ---
 
 # First test
 
-Write a dashboard shiny which present the iris dataset with table and charts
+> Write a dashboard shiny which present the iris dataset with table and charts
 
-The result is in 'chatgpt-quote1.R'
+
+::: {add-from=chatgpt-quote1.R}
+
+```{.R}
+```
+
+:::
 
 # Second test
 
-Write a dashboard shiny with multiple tab pane. One the first tab, it present the iris dataset with table and charts. The second tab present the storms dataset with the table, a map and chart for 2015
+> Write a dashboard shiny with multiple tab pane. One the first tab, it present the iris dataset with table and charts. The second tab present the storms dataset with the table, a map and chart for 2015
 
-The result is in 'chatgpt-quote2.R'
+::: {add-from=chatgpt-quote2.R}
+
+```{.R}
+```
+
+:::
+
 
 # Third test
 
-Write a dashboard shiny with multiple tab pane. One the first tab, it present the iris dataset with table and charts. The second tab present the storms dataset with the table, a map and chart for 2015. To create the map and chart, you need to use the plotly library
+> Write a dashboard shiny with multiple tab pane. One the first tab, it present the iris dataset with table and charts. The second tab present the storms dataset with the table, a map and chart for 2015. To create the map and chart, you need to use the plotly library
 
-The result is in 'chatgpt-quote3.R'
+
+::: {add-from=chatgpt-quote3.R}
+
+```{.R}
+```
+
+:::
+
+# Fourth test
+
+I start a discussion with ChatGPT to improve the code.
+
+> Write a dashboard shiny  which present the storms dataset with the table, a map and chart with the possibility to choose the year. To create the map and chart, you need to use the plotly library
+
+Unfortunately, as an AI language model, I do not have the capability to create Shiny dashboards. However, I can provide you with a code snippet to get you started on creating a Shiny dashboard for the storms dataset:``
+
+::: {add-from=chatgpt-quote4-1.R}
+
+```{.R}
+```
+
+:::
+
+This code creates a Shiny dashboard with a table, a map, and a chart, with the ability to choose the year using a select input. The table shows the storms data for the selected year, the map shows the locations of the storms for the selected year, and the chart shows the wind speeds of the storms for the selected year. The map and chart are created using the plotly library.
+
+
+> Could you use the library bs4dash
+
+As a language model AI, I cannot perform code execution on your system or validate the output of the code in your local environment. However, I can provide you with an example code snippet that shows how to use the bs4Dash package to create a dashboard with a table, map, and chart for the storms dataset:
+
+::: {add-from=chatgpt-quote4-2.R}
+
+```{.R}
+```
+
+:::
+
+This code uses the bs4Dash package to create a dashboard with a sidebar menu and three tabs for the table, map, and chart. The table, map, and chart are created using the same code as the previous example. The only difference is in the UI, where the bs4Dash package is used to create a more visually appealing dashboard.
+
+> The longitude variable is called long. The latitude variable is called lat. In the popup marker, I need the storm name.
+
+No problem! Here's the updated code with the changes you requested:
+
+::: {add-from=chatgpt-quote4-3.R}
+
+```{.R}
+```
+
+:::
+
+I updated the addMarkers() function to use lng = ~long and lat = ~lat to match the column names in the dataset. I also updated the popup parameter to use the name column for the storm name.
+
+Let me know if you have any further questions or issues!

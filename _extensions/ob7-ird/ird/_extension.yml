@@ -1,0 +1,27 @@
+title: Template IRD
+author: Julien LEBRANCHU
+version: 0.0.1
+contributes:
+  formats:
+    docx:
+      reference-doc: ressources/template.docx
+      toc-title: "Summary"
+    pptx:
+      reference-doc: ressources/template.pptx
+      toc: true
+    revealjs:
+      title-slide-attributes:
+        data-background-image: ressources/images/background-slide.png
+        data-background-size: 100%
+        data-background-position: center
+        data-background-opacity: "0.5"
+      logo: ressources/images/logos.png
+      footer: "Pied de page"
+      transition: fade
+      slide-number: "c/t"
+      auto-stretch: false
+      self-contained: true
+      center-title-slide: true
+      theme: [ressources/reveal.scss]
+      plugins:
+      - PdfExport
