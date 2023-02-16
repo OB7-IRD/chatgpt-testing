@@ -1,0 +1,22 @@
+---
+title: "Quote with ChatGPT"
+format: html
+---
+
+# First test
+
+Write a dashboard shiny which present the iris dataset with table and charts
+
+The result is in 'chatgpt-quote1.R'
+
+# Second test
+
+Write a dashboard shiny with multiple tab pane. One the first tab, it present the iris dataset with table and charts. The second tab present the storms dataset with the table, a map and chart for 2015
+
+The result is in 'chatgpt-quote2.R'
+
+# Third test
+
+Write a dashboard shiny with multiple tab pane. One the first tab, it present the iris dataset with table and charts. The second tab present the storms dataset with the table, a map and chart for 2015. To create the map and chart, you need to use the plotly library
+
+The result is in 'chatgpt-quote3.R'
